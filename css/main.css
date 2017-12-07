@@ -91,3 +91,24 @@ ol {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 1.18rem;
+  }
+
+  body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  blockquote {
+    margin-left: 5em;
+  }
+
+  ol {
+    margin-left: -1em;
+  }
+
+}
