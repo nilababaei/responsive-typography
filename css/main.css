@@ -12,13 +12,23 @@ html {
   text-size-adjust: 100%;
 
   color: #222;
-  font-family: "Crimson Text"; serif;
+  font-family: "Crimson Text", serif;
   line-height: 1.3;
-  font-size: 1.06rem;
+  font-size: 1rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 1em;
+}
+
+header p {
+  margin-top: 0;
+  margin-bottom: 1.3em;
+  font-size: .95em;
 }
 
 article {
@@ -27,6 +37,10 @@ article {
 
 article h1 {
   font-weight: normal;
+}
+
+article > p {
+  margin-top: 1.3em;
 }
 
 article header {
@@ -56,18 +70,10 @@ blockquote {
 
 header h1 {
   margin-bottom: 0;
+  font-size: 1.4rem;
 }
 
-header p {
-  margin-top: 0;
-  margin-bottom: 1.3em;
-}
-
-article>p {
-  margin-top: 1.3em;
-}
-
-ol {
+article ol {
   padding-left: 1em;
 }
 
